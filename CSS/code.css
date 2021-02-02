@@ -1,0 +1,9 @@
+.code_list {
+	list-style: none;
+	text-align: center;
+}
+/* Entertainment description */
+#code_description {
+	background-color: rgb(255, 217, 0);
+	text-align: center;
+}

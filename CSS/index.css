@@ -1,0 +1,49 @@
+/* Set size to fullscreen */
+html, body {height: auto;}
+/* Decoration lines */
+#home_vl {
+	height: 93.5vh;
+	width: 8%;
+	position: absolute;
+	top: 6.28vh;
+	left: 13vh;
+	background-color: rgba(30, 138, 2, 0.315);
+}
+#home_hl {
+	height: 8%;
+	width: 100%;
+	position: absolute;
+	top: 26vh;
+	background-color: rgba(116, 89, 0, 0.486);
+}
+/* Background image */
+#home_background {
+	height: 100%;
+	background-image: url("../Images/background.jpg");
+	background-color: rgba(0,0,0,0.82);
+	background-position: 50% 30%;
+	background-blend-mode: overlay;
+}
+/* Text */
+.home_text {
+	color: rgb(255, 208, 0);
+	float: left;
+	position: absolute;
+	font-family: "Roboto", sans-serif;
+	font-size: 5vw;
+	word-wrap: break-word;
+	top: 39%;
+	left: 20%;
+	width: 30%;
+}
+/* Large V logo */
+#home_v {
+	position: absolute;
+	transform: rotate(-8deg);
+	top: 30%;
+	left: 70%;
+}
+#home_v img {
+	width: 20vw;
+	min-width: 20vw;
+}

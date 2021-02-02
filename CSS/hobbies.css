@@ -1,0 +1,47 @@
+/* Nullify any modifications browser may have on page */
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+/* Hobby names */
+#hobby_1 {
+	background-color: rgb(255, 217, 0);
+	text-align: center;
+}
+#hobby_2 {
+	background-color: rgb(202, 202, 202);
+	text-align: center;
+}
+#hobby_3 {
+	background-color: rgb(192, 116, 1);
+	text-align: center;
+}
+#hobby_4 {
+	background-color: rgb(212, 0, 255);
+	text-align: center;
+}
+/* Hobby list in hobby #4 */
+#hobbies_list {
+	font-size: 1.6vw;
+}
+#hobbies_list li {
+	margin:4vh;
+}
+#robot_image {
+	float: left;
+	width: 45%;
+	margin-top: 3vh;
+}
+#spotify_iframe {
+	padding: 5%;
+	float: left;
+}
+#spotify_iframe iframe {
+	width: 30vw;
+	height: 45vh;
+}
